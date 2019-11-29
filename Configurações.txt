@@ -1,0 +1,11 @@
+1- Como funciona a DLL DynamicWrapperX - http://www.script-coding.com/dynwrapx_eng.html
+
+2- Para registrar o aplicativo OLE DynamicWrapperX no sistema SAP ir na transação SOLE, Digitar:
+  • Aplicativo OLE: DynamicWrapperX
+  • CLSID: {89565275-A714-4a43-912E-978B935EDCCC}
+  • Tipo CLSID Lib: {89565275-A714-4a43-912E-978B935EDCCC}
+  • Nome do objeto OLE: DynamicWrapperX
+  • Idioma: PT
+  • Texto: o componente permite chamar funções exportadas por DLLs
+
+3 - Registra o DynamicWrapperX também no sistema do cliente, através do terminal usando o comanodo regsvr32 nomeDaDll.dll
